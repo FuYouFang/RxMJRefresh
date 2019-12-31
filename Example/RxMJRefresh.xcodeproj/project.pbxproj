@@ -33,7 +33,7 @@
 		1E30D102D490F24E345A2851 /* Pods-RxMJRefresh_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMJRefresh_Tests.release.xcconfig"; path = "Target Support Files/Pods-RxMJRefresh_Tests/Pods-RxMJRefresh_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		24698B9E4308E7D295E1F083 /* Pods-RxMJRefresh_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMJRefresh_Example.debug.xcconfig"; path = "Target Support Files/Pods-RxMJRefresh_Example/Pods-RxMJRefresh_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		39530309AAB10385F1CD9444 /* Pods_RxMJRefresh_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxMJRefresh_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		54931FDE5325B4BB03B1808A /* RxMJRefresh.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = RxMJRefresh.podspec; path = ../RxMJRefresh.podspec; sourceTree = "<group>"; };
+		54931FDE5325B4BB03B1808A /* RxMJRefresh.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RxMJRefresh.podspec; path = ../RxMJRefresh.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* RxMJRefresh_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxMJRefresh_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,9 +44,9 @@
 		607FACE51AFB9204008FA782 /* RxMJRefresh_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxMJRefresh_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		631D6C5FA606A31D65C6905A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		631D6C5FA606A31D65C6905A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E57D5486FD7988906548749F /* Pods-RxMJRefresh_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMJRefresh_Tests.debug.xcconfig"; path = "Target Support Files/Pods-RxMJRefresh_Tests/Pods-RxMJRefresh_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		FF2CFA230F9CD54595E50968 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FF2CFA230F9CD54595E50968 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,7 +147,6 @@
 				E57D5486FD7988906548749F /* Pods-RxMJRefresh_Tests.debug.xcconfig */,
 				1E30D102D490F24E345A2851 /* Pods-RxMJRefresh_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
