@@ -1,0 +1,6 @@
+framework module Pods_RxMJRefresh_Example {
+  umbrella header "Pods-RxMJRefresh_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module RxMJRefresh {
+  umbrella header "RxMJRefresh-umbrella.h"
+
+  export *
+  module * { export * }
+}
