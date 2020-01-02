@@ -11,15 +11,9 @@ Pod::Spec.new do |s|
   s.version          = '0.1.0'
   s.summary          = 'MJRefresh with RxCocoa.'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-  MJRefresh with RxCocoa
-                    DESC
+#  s.description      = <<-DESC
+#  MJRefresh with RxCocoa
+#                    DESC
 
   s.homepage         = 'https://github.com/FuYouFang/RxMJRefresh'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -32,5 +26,7 @@ Pod::Spec.new do |s|
   s.swift_version = '5.0'
   s.frameworks = 'UIKit'
   s.dependency 'MJRefresh', '~> 3.2.0'
-  s.dependency 'RxCocoa', '~> 4.5.0'
+  s.dependency 'RxSwift', '~> 5.0'
+  s.dependency 'RxCocoa', '~> 5.0'
+  
 end
