@@ -25,8 +25,8 @@ Pod::Spec.new do |s|
   s.source_files = 'RxMJRefresh/Classes/**/*'
   s.swift_version = '5.0'
   s.frameworks = 'UIKit'
-  s.dependency 'MJRefresh', '~> 3.2.0'
-  s.dependency 'RxSwift', '~> 5.0'
-  s.dependency 'RxCocoa', '~> 5.0'
+  s.dependency 'MJRefresh', '~> 3.2.3'
+  s.dependency 'RxSwift', '~> 5.0.0'
+  s.dependency 'RxCocoa', '~> 5.0.0'
   
 end
