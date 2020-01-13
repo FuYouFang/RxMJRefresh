@@ -76,14 +76,6 @@ extension Reactive where Base: MJRefreshComponent {
         return ControlEvent(events: source)
     }
     
-    /*
-    public var refreshState: Binder<MJRefreshState> {
-        return Binder(base) { target, state in
-            target.state = state
-        }
-    }
-     */
-    
     public var beginRefreshing: Binder<Void> {
         return Binder(base) { (target, _) in
             target.isHidden = false
@@ -98,11 +90,11 @@ extension Reactive where Base: MJRefreshComponent {
     }
     
     public var isRefreshing: Binder<Bool> {
-        return Binder(base) { target, refresh in
-            if refresh && target.isRefreshing {
+        return Binder(base) { target, isRefreshing in
+            if isRefreshing && target.isRefreshing {
                 return
             } else {
-                refresh ? target.beginRefreshing() : target.endRefreshing()
+                target.state = !isRefreshing ? .idle : .refreshing
             }
         }
     }
